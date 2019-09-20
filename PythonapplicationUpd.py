@@ -52,21 +52,9 @@ def dicefunction():
         
     min = 1
     max = 6
-
-    #define roll_again
     roll_again = "yes"
 
-#    while roll_again == 'yes':
-#        if roll_again == "yes" or roll_again == "y":
-#            randomnumber0 = random.randint(min, max)
-#            print ("Rolling the dice...")
-#            print ("The value is...")
-#            print (randomnumber0
-                
-
-#If user wants to roll the dice more than once. 
     while roll_again == "yes":
-        print(roll_again)
         roll_again = input("Do you want to roll the dice? ")
         if roll_again in ("yes", "y"):
             randomnumber0 = random.randint(min, max)
@@ -85,7 +73,7 @@ def dicefunction():
 
 def sList(): 
 
-    print("you cant use 2 libraries which are at 2 different version\n it's badly written\n pip is cancer on linux \n no switch case\n it cant hold enough info\n python is slow\n python takes all youre memory\n python is bad with databases\n errors goes to run time instead of compile time\n you can only get a job with python in india\n simon thinks python is not a simple program and the syntax is not simple\n it's quote on quote easy to code\n no templates\n python er skrald\n python is hard to read\n missing features\n documentation is not very good")
+    print("")
     
 def Russki():
     print("why you talk to me men")
